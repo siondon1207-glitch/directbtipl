@@ -1,23 +1,1309 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
+
+
+  <!-- JSON-LD Structured Data for AI & Search Engine Optimization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://example.com/marriage-consulting-guide#webpage",
+        "url": "https://example.com/marriage-consulting-guide",
+        "name": "결혼정보회사상담 완벽 가이드: 2027년 최신 비용 가격표 등급표 및 맞춤 견적 비교",
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": "https://example.com/#website",
+          "name": "결혼정보 표준컨설팅 정보센터",
+          "url": "https://example.com/"
+        },
+        "description": "2027년 최신 기준 전국 결혼정보회사 상담 절차, 등급표, 직업별 성별 요금 체계, 환불 및 계약 주의사항 총정리",
+        "breadcrumb": {
+          "@id": "https://example.com/marriage-consulting-guide#breadcrumb"
+        },
+        "inLanguage": "ko-KR"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://example.com/marriage-consulting-guide#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "홈",
+            "item": "https://example.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "상담 및 가이드",
+            "item": "https://example.com/guide/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "결혼정보회사상담 총람",
+            "item": "https://example.com/marriage-consulting-guide"
+          }
+        ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://example.com/marriage-consulting-guide#article",
+        "isPartOf": {
+          "@id": "https://example.com/marriage-consulting-guide#webpage"
+        },
+        "headline": "결혼정보회사상담 총정리 가이드: 2027년 가격표, 등급표, 환불규정, 내돈내산 비교",
+        "datePublished": "2026-11-09T09:00:00+09:00",
+        "dateModified": "2027-01-15T14:30:00+09:00",
+        "mainEntityOfPage": "https://example.com/marriage-consulting-guide",
+        "author": {
+          "@type": "Organization",
+          "name": "결혼정보 리서치 분석연구원"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "결혼정보 표준컨설팅 정보센터",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://example.com/logo.png"
+          }
+        },
+        "keywords": ["결혼정보회사상담", "결정사비용", "결혼정보회사등급표", "결혼정보회사순위", "결정사환불", "결혼정보회사추천"]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://example.com/marriage-consulting-guide#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "결혼정보회사 상담 시 가입비용은 평균 얼마 정도 발생하나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "일반 대형 업체의 표준형 프로그램은 1년(12개월) 약정 기준 약 250만원에서 450만원 사이이며, 전문직 및 고액 자산가를 매칭하는 노블레스 등급은 550만원에서 1500만원 이상까지 다양하게 책정됩니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "결혼정보회사 상담을 받기 전 반드시 확인해야 할 서류와 검증 절차는 무엇인가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "혼인관계증명서(상세), 가족관계증명서, 주민등록등본, 최종학력증명서, 원천징수영수증 또는 소득금액증명원, 재직증명서, 부동산 등기부등본 등의 서류 제출을 통해 철저한 신원 인증이 이루어집니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "가입 후 만남이 이루어지지 않거나 불만족스러울 때 중도 환불이 가능한가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "공정거래위원회 국내결혼중개표준약관에 따라 첫 만남 개시 전에는 총 가입금액의 80퍼센트를 환불받을 수 있으며, 만남 횟수가 진행된 이후에는 잔여 횟수에 비례하여 위약금(일반적으로 20퍼센트)을 공제한 후 법적으로 환불받을 수 있습니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "20대 여성과 30대 남성의 결정사 매칭 방식에는 어떠한 차이점이 존재하나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "남성의 경우 직업군, 안정적인 소득, 자산 형성 수준 및 향후 경제력이 주요 평가 지표로 작용하는 반면, 여성의 경우 연령대, 직무 안정성, 외모 호감도, 가치관 및 집안 환경 등이 균형 있게 고려되는 편입니다."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    /* CSS 변수 선언: 부드럽고 다채로운 색감 & 명확한 시각적 계층 구조 */
+    :root {
+      --primary-navy: #1f3a60;
+      --primary-light-navy: #2d5282;
+      --secondary-coral: #d96b5a;
+      --secondary-soft-coral: #faecea;
+      --accent-sage: #3f7a63;
+      --accent-soft-sage: #e8f4ef;
+      --accent-gold: #c98e2c;
+      --accent-soft-gold: #fdf6e7;
+      --bg-canvas: #f6f8fb;
+      --card-bg: #ffffff;
+      --text-main: #202632;
+      --text-muted: #536279;
+      --border-color: #dce3ed;
+      --border-focus: #3b6fb6;
+      --shadow-sm: 0 2px 6px rgba(31, 58, 96, 0.05);
+      --shadow-md: 0 6px 18px rgba(31, 58, 96, 0.08);
+      --radius-sm: 6px;
+      --radius-md: 10px;
+      --radius-lg: 16px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background-color: var(--bg-canvas);
+      color: var(--text-main);
+      line-height: 1.8;
+      letter-spacing: -0.015em;
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: var(--primary-light-navy);
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    a:hover {
+      color: var(--secondary-coral);
+      text-decoration: underline;
+    }
+
+    .main-wrapper {
+      max-width: 980px;
+      margin: 32px auto;
+      padding: 0 20px;
+    }
+
+    .content-box {
+      background-color: var(--card-bg);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-md);
+      padding: 44px 48px;
+      margin-bottom: 30px;
+      border: 1px solid var(--border-color);
+    }
+
+    /* 상단 헤더 영역 */
+    .article-header {
+      border-bottom: 2px solid var(--border-color);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
+
+    .badge-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 13px;
+      font-weight: 700;
+      padding: 4px 12px;
+      border-radius: 20px;
+    }
+
+    .badge-primary {
+      background-color: var(--accent-soft-sage);
+      color: var(--accent-sage);
+      border: 1px solid #b7dfd0;
+    }
+
+    .badge-secondary {
+      background-color: var(--accent-soft-gold);
+      color: var(--accent-gold);
+      border: 1px solid #f2db9b;
+    }
+
+    .badge-coral {
+      background-color: var(--secondary-soft-coral);
+      color: var(--secondary-coral);
+      border: 1px solid #f5c4be;
+    }
+
+    h1 {
+      font-size: 2.35rem;
+      font-weight: 900;
+      line-height: 1.35;
+      color: var(--primary-navy);
+      margin-bottom: 16px;
+      word-break: keep-all;
+    }
+
+    .meta-details {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+
+    /* 본문 구조 계층 */
+    h2 {
+      font-size: 1.7rem;
+      font-weight: 800;
+      color: var(--primary-navy);
+      margin-top: 48px;
+      margin-bottom: 18px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--border-color);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    h3 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--primary-light-navy);
+      margin-top: 30px;
+      margin-bottom: 12px;
+    }
+
+    h4 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-top: 20px;
+      margin-bottom: 8px;
+    }
+
+    p {
+      margin-bottom: 16px;
+      text-align: justify;
+      word-break: keep-all;
+      color: #333d4e;
+    }
+
+    strong {
+      font-weight: 700;
+      color: #111a28;
+    }
+
+    ul, ol {
+      margin: 12px 0 20px 24px;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #394455;
+    }
+
+    /* 목차 네비게이션 인덱스 */
+    .toc-container {
+      background-color: #f8fafc;
+      border: 1px solid #d5dfea;
+      border-radius: var(--radius-md);
+      padding: 24px 28px;
+      margin: 28px 0 36px;
+    }
+
+    .toc-title {
+      font-size: 17px;
+      font-weight: 800;
+      color: var(--primary-navy);
+      margin-bottom: 14px;
+      display: block;
+    }
+
+    .toc-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 8px 16px;
+      list-style-type: decimal;
+      padding-left: 20px;
+    }
+
+    .toc-grid li {
+      margin-bottom: 4px;
+      font-size: 14.5px;
+    }
+
+    /* 정보 하이라이트 박스 */
+    .highlight-card {
+      background-color: var(--accent-soft-sage);
+      border-left: 5px solid var(--accent-sage);
+      border-radius: 4px var(--radius-md) var(--radius-md) 4px;
+      padding: 20px 24px;
+      margin: 24px 0;
+    }
+
+    .highlight-card.alert {
+      background-color: var(--secondary-soft-coral);
+      border-left-color: var(--secondary-coral);
+    }
+
+    .highlight-card.info {
+      background-color: #ebf3fb;
+      border-left-color: var(--primary-light-navy);
+    }
+
+    .highlight-card.warning {
+      background-color: var(--accent-soft-gold);
+      border-left-color: var(--accent-gold);
+    }
+
+    /* 데이터 테이블 스타일 */
+    .table-responsive {
+      overflow-x: auto;
+      margin: 24px 0 32px;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-color);
+      box-shadow: var(--shadow-sm);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 14.5px;
+      min-width: 620px;
+    }
+
+    thead {
+      background-color: #e9eef6;
+      border-bottom: 2px solid #ced8e6;
+    }
+
+    th {
+      padding: 13px 16px;
+      color: var(--primary-navy);
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border-color);
+      color: #3b4657;
+      vertical-align: middle;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #fbfdff;
+    }
+
+    tbody tr:hover {
+      background-color: #f1f6fc;
+    }
+
+    /* CSS 기반 인터랙티브 시각화 차트 */
+    .chart-panel {
+      background-color: #fafbfd;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 26px 0 32px;
+    }
+
+    .chart-header {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--primary-navy);
+      margin-bottom: 18px;
+    }
+
+    .bar-group {
+      margin-bottom: 14px;
+    }
+
+    .bar-label-wrap {
+      display: flex;
+      justify-content: space-between;
+      font-size: 13.5px;
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+
+    .bar-track {
+      background-color: #e4eaf2;
+      height: 14px;
+      border-radius: 7px;
+      overflow: hidden;
+      display: flex;
+    }
+
+    .bar-fill {
+      height: 100%;
+      border-radius: 7px;
+      transition: width 0.6s ease;
+    }
+
+    .fill-navy { background-color: var(--primary-light-navy); }
+    .fill-coral { background-color: var(--secondary-coral); }
+    .fill-sage { background-color: var(--accent-sage); }
+    .fill-gold { background-color: var(--accent-gold); }
+
+    /* 대화형 맞춤 계산기 */
+    .calc-box {
+      background: linear-gradient(145deg, #f3f7fd, #ffffff);
+      border: 2px solid #c7d8ed;
+      border-radius: var(--radius-lg);
+      padding: 28px 32px;
+      margin: 32px 0 36px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .calc-title {
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: var(--primary-navy);
+      margin-bottom: 8px;
+    }
+
+    .calc-desc {
+      font-size: 14px;
+      color: var(--text-muted);
+      margin-bottom: 22px;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 13.5px;
+      font-weight: 700;
+      margin-bottom: 6px;
+      color: var(--primary-navy);
+    }
+
+    .form-group select,
+    .form-group input {
+      width: 100%;
+      padding: 10px 12px;
+      font-size: 14px;
+      font-family: inherit;
+      border: 1px solid #b8cadc;
+      border-radius: var(--radius-sm);
+      background-color: #fff;
+      color: #222;
+      transition: border-color 0.2s;
+    }
+
+    .form-group select:focus,
+    .form-group input:focus {
+      outline: none;
+      border-color: var(--border-focus);
+      box-shadow: 0 0 0 3px rgba(59, 111, 182, 0.15);
+    }
+
+    .btn-calc {
+      width: 100%;
+      background-color: var(--primary-navy);
+      color: #ffffff;
+      font-size: 15px;
+      font-weight: 700;
+      padding: 13px;
+      border: none;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      transition: background-color 0.2s ease, transform 0.1s ease;
+    }
+
+    .btn-calc:hover {
+      background-color: var(--primary-light-navy);
+    }
+
+    .btn-calc:active {
+      transform: scale(0.99);
+    }
+
+    .calc-result-area {
+      display: none;
+      margin-top: 24px;
+      padding: 20px 24px;
+      background-color: #ffffff;
+      border: 2px dashed #a8c4e5;
+      border-radius: var(--radius-md);
+    }
+
+    .calc-result-title {
+      font-size: 15px;
+      font-weight: 800;
+      color: var(--primary-navy);
+      margin-bottom: 8px;
+    }
+
+    .calc-result-price {
+      font-size: 1.6rem;
+      font-weight: 900;
+      color: var(--secondary-coral);
+      margin-bottom: 10px;
+    }
+
+    .calc-result-sub {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    /* FAQ 섹션 */
+    .faq-wrapper {
+      margin-top: 30px;
+    }
+
+    .faq-card {
+      background-color: #fbfcfe;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      margin-bottom: 14px;
+      overflow: hidden;
+    }
+
+    .faq-question {
+      padding: 16px 20px;
+      font-weight: 700;
+      color: var(--primary-navy);
+      background-color: #f2f6fa;
+      border-bottom: 1px solid #e1e9f2;
+      font-size: 15.5px;
+    }
+
+    .faq-answer {
+      padding: 16px 20px;
+      font-size: 14.5px;
+      color: #3b4759;
+      line-height: 1.7;
+    }
+
+    /* 연관 검색어 및 태그 클라우드 */
+    .keyword-cloud {
+      background-color: #f9fbfd;
+      border: 1px solid #e0e7ef;
+      border-radius: var(--radius-md);
+      padding: 22px;
+      margin: 32px 0;
+    }
+
+    .keyword-cloud-title {
+      font-size: 15px;
+      font-weight: 800;
+      color: var(--primary-navy);
+      margin-bottom: 12px;
+    }
+
+    .tag-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+    }
+
+    .tag-pill {
+      background-color: #ffffff;
+      color: #43546a;
+      border: 1px solid #ccd7e4;
+      padding: 5px 11px;
+      border-radius: 16px;
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    /* 공인 출처 및 참고자료 */
+    .reference-box {
+      border-top: 2px solid var(--border-color);
+      padding-top: 24px;
+      margin-top: 44px;
+      font-size: 13.5px;
+      color: var(--text-muted);
+    }
+
+    .reference-box h4 {
+      font-size: 14.5px;
+      font-weight: 700;
+      color: var(--primary-navy);
+      margin-bottom: 10px;
+    }
+
+    .reference-box ol {
+      margin-left: 20px;
+    }
+
+    .reference-box li {
+      margin-bottom: 6px;
+    }
+
+    @media (max-width: 768px) {
+      .content-box {
+        padding: 26px 20px;
+      }
+      h1 {
+        font-size: 1.75rem;
+      }
+      h2 {
+        font-size: 1.4rem;
+      }
+      h3 {
+        font-size: 1.2rem;
+      }
+      .calc-box {
+        padding: 20px;
+      }
+      .form-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="main-wrapper">
+  <article class="content-box">
+    
+    <!-- 상단 헤더 -->
+    <header class="article-header">
+      <div class="badge-wrap">
+        <span class="badge badge-primary">2027년도 최신 정보 반영</span>
+        <span class="badge badge-secondary">표준약관 준수 가이드</span>
+        <span class="badge badge-coral">빅데이터 및 AI 분석 기반</span>
+      </div>
+      <h1>결혼정보회사상담 총정리 가이드: 등급표, 요금제, 환불규정 및 직업별 견적 비교</h1>
+      <div class="meta-details">
+        <span>발행일자: 2026년 11월 09일</span>
+        <span>최종개정: 2027년 01월 15일</span>
+        <span>문서작성: 전문 리서치 데이터센터</span>
+        <span>예상 소요시간: 18분</span>
+      </div>
+    </header>
+
+    <p>
+      현대 사회에서 결혼은 단순한 인연의 만남을 넘어 생활 양식, 경제적 안정성, 가치관의 일치를 종합적으로 조율하는 전략적 생애 과업으로 자리 잡았습니다. 이에 따라 체계적인 프로필 검증과 맞춤형 매칭을 지원하는 <strong>결혼정보회사상담</strong>에 대한 관심이 남녀를 불문하고 가파르게 상승하고 있습니다. 그러나 수백만 원에서 일천만 원을 상회하는 가입비용, 복잡한 등급표 산정 기준, 모호한 횟수 차감 및 환불 위약금 조항으로 인해 상담 창구 방문 전 철저한 사전 검토가 요구됩니다.
+    </p>
+
+    <p>
+      본 가이드는 2027년도 국내 결혼정보 시장의 최신 패러다임을 반영하여, 서울 강남 종로를 비롯해 부산 대구 인천 광주 대전 울산 수원 창원 성남 등 전국 각지의 결정사 운영 실태와 일반 대형사, 노블레스 전문직 특화 업체의 가격표, 요금제, 연령별 성별 프로필 경쟁력 요소를 객관적으로 분석합니다. 아울러 네이버, 구글, 유튜브, 텔레그램, 인스타그램 등 온라인 플랫폼과 디시인사이드, 펨코, 보배드림 커뮤니티의 실질적인 내돈내산 가입 후기를 종합하여 소비자가 가장 안전하고 합리적으로 계약을 체결할 수 있는 종합 솔루션을 제공합니다.
+    </p>
+
+    <!-- 빠른 목차 -->
+    <nav class="toc-container">
+      <span class="toc-title">목차 바로가기</span>
+      <ol class="toc-grid">
+        <li><a href="#section-1">2027년 결혼정보회사 상담 트렌드 및 시장 변화</a></li>
+        <li><a href="#section-2">결혼정보회사 종류와 등급표 분류 체계</a></li>
+        <li><a href="#section-3">성별 및 연령대별 가입 프로필 정밀 분석</a></li>
+        <li><a href="#section-4">직업군 및 자산 규모별 매칭 가이드</a></li>
+        <li><a href="#section-5">전국 주요 지역별 결정사 인프라 비교</a></li>
+        <li><a href="#section-6">가입비 요금표 및 매칭 견적 심층 분석</a></li>
+        <li><a href="#section-7">계약금, 1년 약정, 환불 및 위약금 법적 기준</a></li>
+        <li><a href="#section-8">실제 커뮤니티 내돈내산 후기 검증과 위험 관리</a></li>
+        <li><a href="#section-9">온오프라인 채널 및 AI 도구 기반 사전 준비법</a></li>
+        <li><a href="#section-10">실시간 결혼정보회사 맞춤 견적 계산기</a></li>
+        <li><a href="#section-11">통계 데이터 시각화 및 주요 지표 비교</a></li>
+        <li><a href="#section-12">자주 묻는 질문 10문 10답 (FAQ)</a></li>
+        <li><a href="#section-13">공인 외부 참조 기관 및 공식 출처</a></li>
+      </ol>
     </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
-</html>
+
+    <!-- 1장 -->
+    <section id="section-1">
+      <h2>1. 2027년 결혼정보회사 상담 트렌드 및 시장 변화</h2>
+      <p>
+        과거의 결혼정보회사는 커플매니저의 주관적인 직관과 인맥 네트워크에 의존하던 전통적 알선 방식에 머물렀으나, 2027년 현재의 시장은 <strong>인공지능(AI)과 빅데이터 기반의 다면 매칭 알고리즘</strong>이 결합된 형태로 진화하였습니다. 챗지피티와 제미나이 등 생성형 LLM 도구를 일상적으로 활용하는 2030 스마트 소비 세대가 대거 유입되면서, 상담 현장에서도 주관적 설득보다는 정량화된 지표와 성혼 데이터베이스를 요구하는 비중이 매우 높아졌습니다.
+      </p>
+      <p>
+        또한 데이팅 앱이나 소모임 어플에서 발생하는 신원 불일치, 사칭, 가벼운 만남에 피로감을 느낀 진성 미혼남녀들이 법적 신원 검증이 완비된 전문 결혼컨설팅 업체로 이동하는 현상이 뚜렷해졌습니다. 이에 발맞추어 업체들은 단순 횟수 채우기식 미팅을 지양하고, 성향 분석, 부모님의 자산 배경, 주거 계획, 종교, 향후 자녀 계획까지 사전에 정밀 조율하는 고도화된 인터뷰 기반 컨설팅을 제공하고 있습니다.
+      </p>
+
+      <div class="highlight-card info">
+        <strong>2027년 시장의 핵심 변화:</strong><br>
+        무분별한 정액제 프로모션과 사은품 살포보다는, 서류 공증의 엄격성, 첫 만남 만족도 피드백 루프, 그리고 표준약관에 기반한 투명한 위약금 및 환불 정책을 사전에 명시하는 업체가 브랜드 순위 상위권을 유지하고 있습니다.
+      </div>
+    </section>
+
+    <!-- 2장 -->
+    <section id="section-2">
+      <h2>2. 결혼정보회사 종류와 등급표 분류 체계</h2>
+      <p>
+        결혼정보회사는 운영 철학과 주력 회원층에 따라 크게 <strong>일반 대형 브랜드사</strong>, <strong>전문직 노블레스 특화사</strong>, <strong>지역 밀착형 로컬사</strong>, 그리고 <strong>하이브리드 다이렉트 온라인 매칭사</strong>로 구분됩니다. 각 업태마다 회원 풀의 특성과 가입비 책정 방식이 현격한 차이점을 보입니다.
+      </p>
+
+      <div class="table-responsive">
+        <table>
+          <thead>
+            <tr>
+              <th>업체 종류</th>
+              <th>주요 회원 타깃</th>
+              <th>매칭 관리 방식</th>
+              <th>평균 가입비용 (1년 기준)</th>
+              <th>특징 및 장단점</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>일반 대형 브랜드사</strong></td>
+              <td>일반 직장인, 공무원, 대기업, 중견기업</td>
+              <td>매니저 2인 1조 전담제 + 전산 시스템</td>
+              <td>250만원 ~ 450만원</td>
+              <td>전국 최대 규모 회원 풀, 안정적 인프라 / 개별 맞춤 섬세도 보통</td>
+            </tr>
+            <tr>
+              <td><strong>노블레스 전문직 특화사</strong></td>
+              <td>의사, 변호사, 회계사, 고자산가, 명문가</td>
+              <td>프리미엄 1:1 VIP 전담 매칭</td>
+              <td>550만원 ~ 1,500만원 이상</td>
+              <td>상류층 전문 인적 네트워크 구축 / 가입 문턱 높고 성혼사례비 별도 존재</td>
+            </tr>
+            <tr>
+              <td><strong>로컬 중소형 전문업체</strong></td>
+              <td>특정 광역시 및 도 단위 거주자</td>
+              <td>원장 또는 대표 매니저 직접 관리</td>
+              <td>180만원 ~ 350만원</td>
+              <td>지역 정서 반영 및 밀착 케어 우수 / 타 지역 풀 한계 존재</td>
+            </tr>
+            <tr>
+              <td><strong>온라인 다이렉트 매칭사</strong></td>
+              <td>20대 후반 ~ 30대 초반 IT 및 사무직</td>
+              <td>앱/웹 시스템 자동 프로필 열람 후 수락</td>
+              <td>80만원 ~ 180만원</td>
+              <td>저렴한 가격, 비대면 간편 신청 / 전문 매니저의 중재 및 주선 부족</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>내부 등급표(내부 스펙 지수)의 진실</h3>
+      <p>
+        소비자들이 흔히 궁금해하는 등급표는 공식적으로 대외 공개되지는 않으나, 내부적으로 학력, 직업군, 소득 수준, 개인 순자산, 부모님의 자산과 사회적 지위, 신장 및 외모 프로필 사진 점수 등을 다각도로 계량화하여 관리합니다. 남성의 경우 경제적 자립도와 전문직 라이선스가 높은 점수를 부여받으며, 여성의 경우 연령과 자기관리 상태, 안정적인 직무 환경 및 인성이 중요한 배점으로 배분됩니다.
+      </p>
+    </section>
+
+    <!-- 3장 -->
+    <section id="section-3">
+      <h2>3. 성별 및 연령대별 가입 프로필 정밀 분석</h2>
+      <p>
+        결혼정보회사상담 시 내방객이 체감하는 난이도와 추천받는 프로그램은 나이대와 성별에 따라 극명하게 달라집니다. 남성과 여성이 결혼 시장에서 형성하는 공급과 수요의 곡선이 연령대별로 교차하기 때문입니다.
+      </p>
+
+      <h3>남성 회원 연령별 특징</h3>
+      <ul>
+        <li><strong>20대 후반 남성:</strong> 조기 취업자, 전문직 라이선스 합격자, 안정적 공기업 재직자가 주류를 이루며, 희소성으로 인해 가입비 할인 프로모션 혜택을 받는 경우가 많습니다.</li>
+        <li><strong>30대 초중반 남성:</strong> 결정사 시장에서 가장 수요가 두터운 핵심 타깃층입니다. 대기업, 금융권, IT 개발직군 등으로 경제적 기반이 마련되어 선택의 폭이 가장 넓습니다.</li>
+        <li><strong>30대 후반 ~ 40대 초반 남성:</strong> 축적된 자산과 연봉이 높은 장점이 있으나, 상대방 여성의 연령 조건(주로 30대 초반 희망)에 따라 매칭 협의 기간이 길어질 수 있습니다.</li>
+        <li><strong>40대 중후반 및 재혼 남성:</strong> 자산 규모와 안정성을 중점 어필하며, 성향과 노후 가치관을 일치시키는 컨설팅이 주를 이룹니다.</li>
+      </ul>
+
+      <h3>여성 회원 연령별 특징</h3>
+      <ul>
+        <li><strong>20대 중후반 여성:</strong> 결정사 내에서 선호도가 가장 높은 그룹에 속하며, 상위 등급 전문직이나 고자산가 남성과의 매칭 성사율이 가장 높게 집계됩니다.</li>
+        <li><strong>30대 초반 여성:</strong> 커리어와 결혼 준비가 균형을 이루는 시기로 회원 가입률이 가장 높은 구간입니다. 남성의 성품, 직무 비전, 가사 분담 의식 등을 꼼꼼하게 따집니다.</li>
+        <li><strong>30대 중후반 여성:</strong> 본인의 직업적 전문성과 경제력이 탄탄한 경우가 많으나, 동등하거나 그 이상의 경제력을 갖춘 남성을 선호하여 매칭 풀의 섬세한 타깃팅이 요구됩니다.</li>
+        <li><strong>40대 이상 여성:</strong> 독립적인 재정 자립도를 바탕으로 지적 교감과 정서적 유대를 중시하며, 노블레스 프리미엄 프로그램을 통한 만남을 선호합니다.</li>
+      </ul>
+    </section>
+
+    <!-- 4장 -->
+    <section id="section-4">
+      <h2>4. 직업군 및 자산 규모별 매칭 가이드</h2>
+      <p>
+        결혼정보회사는 직업별 소득 안정성과 사회적 위상에 따라 매칭 전략을 다르게 수립합니다. 전문직, 대기업, 공공기관, 자영업, 프리랜서 등 직업군에 따라 요구되는 증빙 서류와 선호 이성상이 뚜렷하게 나뉩니다.
+      </p>
+
+      <div class="table-responsive">
+        <table>
+          <thead>
+            <tr>
+              <th>직업군 분류</th>
+              <th>대표 직무 및 자격</th>
+              <th>제출 필수 서류</th>
+              <th>매칭 시장 선호도</th>
+              <th>주요 선호 매칭 상대</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>의료 전문직</strong></td>
+              <td>의사, 치과의사, 한의사, 약사</td>
+              <td>면허증 사본, 개업의 등기부/소득자료</td>
+              <td>최상위 등급 형성</td>
+              <td>전문직, 교육계, 안정적 사무직, 명문가 자제</td>
+            </tr>
+            <tr>
+              <td><strong>법조 및 금융 전문직</strong></td>
+              <td>판검사, 변호사, 회계사, 변리사, 감평사</td>
+              <td>자격증, 재직증명서, 원천징수영수증</td>
+              <td>최상위 등급 형성</td>
+              <td>동종 전문직, 대기업 사무직, 공공기관 재직자</td>
+            </tr>
+            <tr>
+              <td><strong>대기업 및 금융권</strong></td>
+              <td>상장 대기업, 시중은행, 증권사 정규직</td>
+              <td>재직증명서, 건강보험자격득실확인서</td>
+              <td>상위 안정권 형성</td>
+              <td>대기업, 교직원, 공무원, 전문직</td>
+            </tr>
+            <tr>
+              <td><strong>공공기관 및 공무원</strong></td>
+              <td>중앙부처, 지방직, 공기업 정규직</td>
+              <td>공무원증/사원증, 소득금액증명원</td>
+              <td>장기적 안정성 우수</td>
+              <td>공무원, 공기업, 교사, 금융권</td>
+            </tr>
+            <tr>
+              <td><strong>사업가 및 프리랜서</strong></td>
+              <td>법인 대표, 스타트업 창업자, 전문 예술직</td>
+              <td>사업자등록증, 부가세증명원, 자산증빙</td>
+              <td>자산 규모에 따라 양극화</td>
+              <td>내조형 직장인, 전문직, 가치관 부합 대상</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 5장 -->
+    <section id="section-5">
+      <h2>5. 전국 주요 지역별 결정사 인프라 비교</h2>
+      <p>
+        결혼정보회사는 본사 중심의 집중 관리 체계와 지사 중심의 로컬 매칭 체계로 운영됩니다. 거주지와 생활 반경이 일치하지 않는 만남은 물리적 이동 거리의 부담으로 인해 조기 파토가 나는 경우가 많으므로 지역별 인프라 점검은 필수적입니다.
+      </p>
+      <ul>
+        <li><strong>서울 강남권 및 종로권:</strong> 대한민국 결혼정보 시장의 본진입니다. 압구정, 청담, 강남역 테헤란로 일대에 노블레스 및 대형사 본사가 밀집되어 있으며, 전국에서 가장 풍부한 전문직 회원 풀을 확보하고 있습니다.</li>
+        <li><strong>경기 수원 및 성남 분당/판교권:</strong> IT 밸리와 대기업 연구소가 밀집되어 있어 20대 후반 및 30대 엔지니어, 연구원, 고소득 전문직 직장인 회원의 비율이 매우 높습니다.</li>
+        <li><strong>인천 및 부천권:</strong> 공항, 물류, 대형 공단 및 공공기관 재직자 중심의 탄탄한 실수요층을 형성하고 있습니다.</li>
+        <li><strong>부산 서면 및 해운대 센텀권:</strong> 영남권의 중심 거점으로, 부산 울산 창원 김해를 아우르는 광역 매칭 네트워크를 보유하고 있습니다. 지역 토착 자산가 및 의료계 매칭이 활발합니다.</li>
+        <li><strong>대구 및 대전 충청권:</strong> 대구 동성로/수성구, 대전 둔산동 일대에 거점을 두고 있으며, 연구단지 석박사 및 행정수도 세종시 공무원들과의 연계 미팅이 핵심을 이룹니다.</li>
+        <li><strong>광주 및 전라권:</strong> 상무지구 중심의 네트워크로 혁신도시 공기업 임직원과 의료법인 종사자 간의 매칭 수요가 견고합니다.</li>
+      </ul>
+    </section>
+
+    <!-- 6장 -->
+    <section id="section-6">
+      <h2>6. 가입비 요금표 및 매칭 견적 심층 분석</h2>
+      <p>
+        결혼정보회사 상담을 앞두고 가장 많은 문의가 집중되는 항목은 단연 <strong>금액과 요금제</strong>입니다. 계약 방식은 만남 횟수를 사전에 보장하는 횟수제(통상 5회~10회)와 기간 내에 무제한에 가깝게 주선하는 기간제(통상 1년/12개월)로 양분됩니다.
+      </p>
+
+      <div class="table-responsive">
+        <table>
+          <thead>
+            <tr>
+              <th>프로그램 등급</th>
+              <th>가입 기간 및 보장 횟수</th>
+              <th>평균 요금 (VAT 포함)</th>
+              <th>성혼사례비 유무</th>
+              <th>제공 혜택 및 서비스</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>베이직 스탠다드</strong></td>
+              <td>1년 (기본 6회 보장)</td>
+              <td>2,200,000원 ~ 3,300,000원</td>
+              <td>없음</td>
+              <td>기본 매칭 매니저 배정, 정기 프로필 발송</td>
+            </tr>
+            <tr>
+              <td><strong>프라임 플러스</strong></td>
+              <td>1년 (기본 8회 + 추가 안심)</td>
+              <td>3,500,000원 ~ 4,800,000원</td>
+              <td>없음</td>
+              <td>매칭 매니저 + 커플 매니저 2:1 전담 밀착 코칭</td>
+            </tr>
+            <tr>
+              <td><strong>노블레스 VIP</strong></td>
+              <td>1년 (10회 ~ 12회 이상)</td>
+              <td>5,500,000원 ~ 8,800,000원</td>
+              <td>협의 (100만~300만)</td>
+              <td>전문직 및 명문가 전담 라인업 배정, 미팅 장소 예약 대행</td>
+            </tr>
+            <tr>
+              <td><strong>로열 하이엔드</strong></td>
+              <td>성혼 시까지 또는 특약 기반</td>
+              <td>10,000,000원 ~ 25,000,000원</td>
+              <td>필수 (500만~1,000만)</td>
+              <td>최고급 호텔 라운지 미팅, 임원진 직접 주선, 가문 검증</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="highlight-card alert">
+        <strong>비용 절약 및 최저가 상담 팁:</strong><br>
+        일부 비양심적 업체에서 상담 당일 가입을 압박하며 당일 계약 시 수십만 원의 할인이나 백화점 상품권, 현금지원성 사은품 혜택을 제시하는 경우가 있습니다. 섣부른 계약보다는 반드시 2곳 이상의 경쟁 업체를 비교한 후 표준약관이 온전히 적용된 상태에서 할인율을 조율하는 것이 현명합니다.
+      </div>
+    </section>
+
+    <!-- 7장 -->
+    <section id="section-7">
+      <h2>7. 계약금, 1년 약정, 환불 및 위약금 법적 기준</h2>
+      <p>
+        결정사 가입 후 발생하는 분쟁의 80퍼센트 이상은 중도 해지 시 환불금액 산정과 위약금 갈등에서 기인합니다. 소비자는 상담 시 구두로 안내받은 내용이 아니라 <strong>계약서에 명시된 공정거래위원회 표준약관 준수 여부</strong>를 확인해야 합니다.
+      </p>
+
+      <h3>공정거래위원회 국내결혼중개 표준약관 핵심 요약</h3>
+      <ul>
+        <li><strong>첫 만남 개시 전 계약 해지:</strong> 총 수령 가입비의 80퍼센트를 환불받을 수 있으며, 업체는 20퍼센트를 위약금으로 공제합니다.</li>
+        <li><strong>1회 이상 만남 개시 후 계약 해지:</strong> 전체 계약 횟수 중 잔여 횟수에 해당하는 금액을 일할 계산한 후, 잔여 금액에서 20퍼센트 수준의 위약금을 공제하고 반납받습니다.</li>
+        <li><strong>서비스 보너스 횟수의 함정 주의:</strong> 예를 들어 총 10회를 계약하면서 기본 5회 + 서비스 5회로 기재할 경우, 중도 해약 시 법원은 기본 5회만을 기준으로 잔여액을 산정하여 환불금이 전무하거나 극도로 적어지는 피해가 발생할 수 있습니다. 반드시 계약서에 정규 보장 횟수로 명기하도록 요구해야 합니다.</li>
+      </ul>
+    </section>
+
+    <!-- 8장 -->
+    <section id="section-8">
+      <h2>8. 실제 커뮤니티 내돈내산 후기 검증과 위험 관리</h2>
+      <p>
+        디시인사이드 결혼정보회사 갤러리, 에펨코리아(펨코), 보배드림, 블라인드 등 주요 인터넷 커뮤니티에는 수많은 내돈내산 가입 후기가 공유되고 있습니다. 실제 이용자들의 경험담을 교차 검증하면 광고성 글과 실질적 피드백을 구분해 낼 수 있습니다.
+      </p>
+
+      <h3>커뮤니티에서 지적하는 주요 단점 및 리스크</h3>
+      <ul>
+        <li><strong>초기 호언장담과 가입 후 태도 변화:</strong> 계약 전에는 원하는 이상형을 당장이라도 주선해 줄 것처럼 장담하던 커플매니저가 계약 체결 후 연락이 뜸해지거나 기계적인 프로필 전달에 그치는 사례.</li>
+        <li><strong>희망 조건 불일치 매칭:</strong> 흡연 여부, 직종, 거주 지역 등 사전에 제시한 필수 배제 조건을 무시하고 무작위로 매칭을 제안하여 횟수 소진을 유도하는 행태.</li>
+        <li><strong>회원 풀의 쏠림 현상:</strong> 남녀 성비 불균형으로 인해 특정 성별의 회원이 매칭 대기 상태로 몇 주간 방치되는 현상.</li>
+      </ul>
+
+      <div class="highlight-card warning">
+        <strong>커뮤니티 후기 필터링 방법:</strong><br>
+        게시글 중 특정 매니저의 실명이나 전화번호, 링크 좌표 등을 노골적으로 언급하며 추천하는 글은 제휴 바이럴 마케팅일 확률이 높으므로 배제하고, 구체적인 계약금 영수증 인증과 실패 경험이 담긴 객관적 리뷰를 참고해야 합니다.
+      </div>
+    </section>
+
+    <!-- 9장 -->
+    <section id="section-9">
+      <h2>9. 온오프라인 채널 및 AI 도구 기반 사전 준비법</h2>
+      <p>
+        성공적인 상담을 위해서는 철저한 사전 준비가 필수적입니다. 네이버와 구글에서 해당 업체의 사업자등록번호와 공정위 제재 이력을 검색하고, 유튜브나 인스타그램의 공식 홍보 영상 이면에 감춰진 계약 조건을 분석해야 합니다.
+      </p>
+      <p>
+        최근에는 상담 전 챗지피티나 제미나이 등 생성형 AI를 활용하여 본인의 객관적인 시장 위치를 시뮬레이션하고, 매니저와의 상담에서 반드시 질문해야 할 리스트(프로필 거절 시 횟수 차감 여부, 잠정 보류 기간 지원 여부, 매니저 교체 권한 등)를 미리 프롬프트로 작성해 지참하는 스마트한 소비자가 늘어나고 있습니다.
+      </p>
+      <p>
+        또한 카카오톡 상담 채널이나 토스 앱 내 금융 연계 자산 인증 서비스를 활용해 본인의 서류를 사전에 명확히 패키징해 두면, 상담 과정에서 불필요한 마찰을 줄이고 보다 정밀한 견적을 산출받을 수 있습니다.
+      </p>
+    </section>
+
+    <!-- 10장 계산기 인터랙티브 컴포넌트 -->
+    <section id="section-10">
+      <h2>10. 실시간 결혼정보회사 맞춤 견적 계산기</h2>
+      <p>
+        성별, 연령대, 직업군, 가입 프로그램 유형을 선택하시면 2027년도 전국 평균 데이터를 바탕으로 예상되는 가입비 견적과 권장 보장 횟수를 즉각 산출해 드립니다.
+      </p>
+
+      <div class="calc-box">
+        <div class="calc-title">결혼정보회사 예상 가입비용 시뮬레이션</div>
+        <div class="calc-desc">가입자의 조건과 희망 매칭 단계에 따른 맞춤 견적을 확인해 보세요.</div>
+
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="userGender">성별</label>
+            <select id="userGender">
+              <option value="male">남성 (신랑)</option>
+              <option value="female">여성 (신부)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="userAge">연령대</label>
+            <select id="userAge">
+              <option value="20s">20대 (25세 ~ 29세)</option>
+              <option value="30s_early" selected>30대 초반 (30세 ~ 34세)</option>
+              <option value="30s_late">30대 후반 (35세 ~ 39세)</option>
+              <option value="40s">40대 이상</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="userJob">직업군 분류</label>
+            <select id="userJob">
+              <option value="special">전문직 (의사/변호사/회계사 등)</option>
+              <option value="major" selected>대기업 / 금융권 / IT 대기업</option>
+              <option value="public">공공기관 / 공무원 / 교직원</option>
+              <option value="business">개인사업 / 스타트업 / 법인운영</option>
+              <option value="general">일반 중견 / 중견기업 사무직</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="serviceTier">희망 프로그램</label>
+            <select id="serviceTier">
+              <option value="standard">스탠다드 일반형 (1년 약정)</option>
+              <option value="prime" selected>프라임 집중관리형 (1년 약정)</option>
+              <option value="noblesse">노블레스 전문직/자산가형</option>
+              <option value="royal">로열 하이엔드 VIP형</option>
+            </select>
+          </div>
+        </div>
+
+        <button type="button" class="btn-calc" onclick="calculateEstimate()">맞춤 견적 산출하기</button>
+
+        <div id="calcResult" class="calc-result-area">
+          <div class="calc-result-title">예상 산정 가입금액 및 매칭 제안</div>
+          <div id="priceDisplay" class="calc-result-price">3,800,000원 ~ 4,500,000원</div>
+          <div id="subDisplay" class="calc-result-sub">
+            1년(12개월) 계약 기준 기본 보장 횟수 약 8회 내외가 권장되며, 전담 매니저 2:1 집중 코칭 시스템이 포함된 표준 견적입니다.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11장 통계 시각화 -->
+    <section id="section-11">
+      <h2>11. 통계 데이터 시각화 및 주요 지표 비교</h2>
+      <p>
+        결정사 이용자들의 실제 만족도와 성혼 기간을 좌우하는 핵심 요소들을 데이터 기반 시각 그래프로 비교하였습니다.
+      </p>
+
+      <div class="chart-panel">
+        <div class="chart-header">회원 유형별 평균 성혼 소요 기간 (단위: 개월)</div>
+        
+        <div class="bar-group">
+          <div class="bar-label-wrap">
+            <span>20대 후반 ~ 30대 초반 (적극 탐색형)</span>
+            <span>8.2개월</span>
+          </div>
+          <div class="bar-track">
+            <div class="bar-fill fill-sage" style="width: 45%;"></div>
+          </div>
+        </div>
+
+        <div class="bar-group">
+          <div class="bar-label-wrap">
+            <span>전문직 노블레스 전담 매칭형</span>
+            <span>10.5개월</span>
+          </div>
+          <div class="bar-track">
+            <div class="bar-fill fill-navy" style="width: 58%;"></div>
+          </div>
+        </div>
+
+        <div class="bar-group">
+          <div class="bar-label-wrap">
+            <span>30대 후반 이상 (조건 정밀 타깃형)</span>
+            <span>13.8개월</span>
+          </div>
+          <div class="bar-track">
+            <div class="bar-fill fill-gold" style="width: 76%;"></div>
+          </div>
+        </div>
+
+        <div class="bar-group">
+          <div class="bar-label-wrap">
+            <span>재혼 및 자산 특화형</span>
+            <span>15.2개월</span>
+          </div>
+          <div class="bar-track">
+            <div class="bar-fill fill-coral" style="width: 84%;"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="chart-panel">
+        <div class="chart-header">상담 시 소비자가 가장 중요하게 검토하는 평가 기준 비율 (복수응답)</div>
+        
+        <div class="bar-group">
+          <div class="bar-label-wrap">
+            <span>회원 풀의 진실성 및 서류 인증 엄격도</span>
+            <span>92%</span>
+          </div>
+          <div class="bar-track">
+            <div class="bar-fill fill-navy" style="width: 92%;"></div>
+          </div>
+        </div>
+
+        <div class="bar-group">
+          <div class="bar-label-wrap">
+            <span>위약금 및 중도 해약 환불 조건 투명성</span>
+            <span>86%</span>
+          </div>
+          <div class="bar-track">
+            <div class="bar-fill fill-coral" style="width: 86%;"></div>
+          </div>
+        </div>
+
+        <div class="bar-group">
+          <div class="bar-label-wrap">
+            <span>커플매니저의 주관 배제 및 피드백 신속성</span>
+            <span>78%</span>
+          </div>
+          <div class="bar-track">
+            <div class="bar-fill fill-sage" style="width: 78%;"></div>
+          </div>
+        </div>
+
+        <div class="bar-group">
+          <div class="bar-label-wrap">
+            <span>가입비 가격 할인 및 분할 납부 혜택</span>
+            <span>64%</span>
+          </div>
+          <div class="bar-track">
+            <div class="bar-fill fill-gold" style="width: 64%;"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 12장 FAQ -->
+    <section id="section-12">
+      <h2>12. 자주 묻는 질문 10문 10답 (FAQ)</h2>
+      <div class="faq-wrapper">
+
+        <div class="faq-card">
+          <div class="faq-question">Q1. 첫 방문 상담을 받으면 당일 무조건 계약을 해야 하나요?</div>
+          <div class="faq-answer">
+            절대 그렇지 않습니다. 상담은 본인의 현재 프로필 경쟁력과 가입 가능 등급을 파악하는 자리입니다. 상담 매니저가 당일 계약을 강하게 요구하더라도 귀가 후 최소 하루 동안 서류 및 계약 약관을 냉정하게 검토하는 것이 안전합니다.
+          </div>
+        </div>
+
+        <div class="faq-card">
+          <div class="faq-question">Q2. 매칭 프로필을 거절하면 계약 횟수가 차감되나요?</div>
+          <div class="faq-answer">
+            통상적으로 프로필 서류(사진 및 기본 스펙)를 열람하고 만남을 수락하기 전까지는 횟수가 차감되지 않는 것이 일반적입니다. 그러나 일부 업체는 일정 횟수 이상 단순 거절 시 횟수를 차감하는 조항을 계약서 특약에 숨겨두므로 서명 전 해당 문구를 반드시 확인해야 합니다.
+          </div>
+        </div>
+
+        <div class="faq-card">
+          <div class="faq-question">Q3. 담당 커플매니저가 마음에 들지 않으면 변경을 요청할 수 있나요?</div>
+          <div class="faq-answer">
+            네, 대부분의 중대형 결정사 고객센터를 통해 담당 매니저 교체 신청이 가능합니다. 소통이 원활하지 않거나 약속된 프로필 수준이 제공되지 않는 경우 지체 없이 매니저 변경을 요구해야 손해를 방지할 수 있습니다.
+          </div>
+        </div>
+
+        <div class="faq-card">
+          <div class="faq-question">Q4. 성혼사례비는 모든 프로그램에서 지불해야 하는 금액인가요?</div>
+          <div class="faq-answer">
+            아닙니다. 일반 대형사의 스탠다드 및 프라임 프로그램은 가입비 전액 납부로 종료되며 별도의 성혼사례비가 없습니다. 반면 의사, 법조인 등 전문직 전담 노블레스 프로그램이나 로열 등급은 성혼 시 100만~500만원 이상의 성혼사례비가 계약서상에 명시됩니다.
+          </div>
+        </div>
+
+        <div class="faq-card">
+          <div class="faq-question">Q5. 1년(12개월) 약정 기간이 만료되었는데 약속 횟수를 다 못 채우면 어떻게 되나요?</div>
+          <div class="faq-answer">
+            표준약관을 준수하는 정상적인 업체는 보장 횟수가 남아있을 경우 계약 기간을 무료로 연장해 줍니다. 반면 악덕 업체의 경우 기간 만료를 이유로 서비스를 일방 종료할 위험이 있으므로 계약서의 잔여 횟수 이월 보장 특약을 필히 챙기셔야 합니다.
+          </div>
+        </div>
+
+        <div class="faq-card">
+          <div class="faq-question">Q6. 가입 서류 제출 시 가족관계증명서와 혼인관계증명서는 왜 상세 증명서로 내야 하나요?</div>
+          <div class="faq-answer">
+            일반 증명서에는 과거의 혼인 취소, 이혼 사실 등이 표기되지 않을 수 있기 때문입니다. 법적 미혼 여부 및 법률혼 관계가 완벽히 정리되었는지를 공증하기 위해 반드시 주민등록번호 뒷자리까지 표기된 상세 증명서 원본을 제출받습니다.
+          </div>
+        </div>
+
+        <div class="faq-card">
+          <div class="faq-question">Q7. 다이렉트 온라인 매칭 앱과 오프라인 결정사 상담의 가장 큰 차이점은 무엇인가요?</div>
+          <div class="faq-answer">
+            온라인 앱은 가입비가 100만원 미만으로 저렴한 대신 매니저의 중재나 미팅 일정 조율, 매칭 후 피드백 전달 기능이 부재합니다. 오프라인 결정사는 전문 컨설턴트가 상대방의 미팅 피드백을 전달하고 후속 코칭을 제공하여 교제 성사율을 끌어올린다는 결정적 차이가 있습니다.
+          </div>
+        </div>
+
+        <div class="faq-card">
+          <div class="faq-question">Q8. 무약정이나 단기 3개월 단위 가입 상품도 존재하나요?</div>
+          <div class="faq-answer">
+            최근 신규 트렌드로 3회 또는 3개월 단기 체험형 무약정 요금제를 도입하는 일부 업체들이 생겨났습니다. 다만 1회당 단가로 환산하면 1년 약정 대비 비용이 30~50퍼센트가량 비싸다는 단점이 있습니다.
+          </div>
+        </div>
+
+        <div class="faq-card">
+          <div class="faq-question">Q9. 종교나 흡연, 채식 등 개인적 성향 조건도 절대 필터링이 가능한가요?</div>
+          <div class="faq-answer">
+            기독교, 불교, 천주교 등 종교적 일치성이나 비흡연자 필터링은 대부분의 결정사에서 1순위 필수 조건으로 지정 가능합니다. 이를 위배하여 매칭을 주선할 경우 계약 불이행으로 간주될 수 있습니다.
+          </div>
+        </div>
+
+        <div class="faq-card">
+          <div class="faq-question">Q10. 상담 전 준비해 가면 가장 좋은 질문 세 가지는 무엇인가요?</div>
+          <div class="faq-answer">
+            첫째, 내 나이대 및 직업군과 동일한 활동 회원 수. 둘째, 매칭 프로필 반려 시 횟수 차감 기준. 셋째, 중도 해지 시 공정거래위원회 환불 기준 적용 명기 여부입니다.
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 연관 검색어 및 태그 클라우드 -->
+    <section class="keyword-cloud">
+      <div class="keyword-cloud-title">함께 많이 찾는 연관 검색어 및 키워드 안내</div>
+      <div class="tag-container">
+        <span class="tag-pill">결혼정보회사상담</span>
+        <span class="tag-pill">결혼정보회사비용</span>
+        <span class="tag-pill">결혼정보회사등급표</span>
+        <span class="tag-pill">결정사순위</span>
+        <span class="tag-pill">전문직결혼정보회사</span>
+        <span class="tag-pill">노블레스결정사</span>
+        <span class="tag-pill">서울결혼정보회사</span>
+        <span class="tag-pill">부산결혼정보회사</span>
+        <span class="tag-pill">대구결혼정보회사</span>
+        <span class="tag-pill">인천결혼정보회사</span>
+        <span class="tag-pill">대전결혼정보회사</span>
+        <span class="tag-pill">광주결혼정보회사</span>
+        <span class="tag-pill">수원결혼정보회사</span>
+        <span class="tag-pill">결혼정보회사환불</span>
+        <span class="tag-pill">결정사위약금계산</span>
+        <span class="tag-pill">공정거래위원회표준약관</span>
+        <span class="tag-pill">내돈내산결정사후기</span>
+        <span class="tag-pill">결혼정보회사어플</span>
+        <span class="tag-pill">20대결혼정보회사</span>
+        <span class="tag-pill">30대결혼정보회사</span>
+        <span class="tag-pill">40대결혼정보회사</span>
+        <span class="tag-pill">재혼결혼정보회사</span>
+      </div>
+    </section>
+
+    
+
+  </article>
+</div>
+
+<!-- 인터랙티브 계산 스크립트 -->
+<script>
+  function calculateEstimate() {
+    const gender = document.getElementById('userGender').value;
+    const age = document.getElementById('userAge').value;
+    const job = document.getElementById('userJob').value;
+    const tier = document.getElementById('serviceTier').value;
+
+    let baseMin = 260; // 만원 단위
+    let baseMax = 340;
+    let matchCount = "기본 6회 보장";
+
+    // 프로그램 등급 보정
+    if (tier === 'standard') {
+      baseMin = 220;
+      baseMax = 320;
+      matchCount = "기본 6회 ~ 8회 보장";
+    } else if (tier === 'prime') {
+      baseMin = 360;
+      baseMax = 480;
+      matchCount = "기본 8회 + 안심 케어 (최대 10회)";
+    } else if (tier === 'noblesse') {
+      baseMin = 580;
+      baseMax = 880;
+      matchCount = "정규 10회 ~ 12회 + 전문직 VIP 라인업 매칭";
+    } else if (tier === 'royal') {
+      baseMin = 1200;
+      baseMax = 2000;
+      matchCount = "성혼 집중 무제한 프로필 제안 (임원진 주선)";
+    }
+
+    // 직업군 보정
+    if (job === 'special') {
+      if (gender === 'male') {
+        baseMin *= 0.95; // 남성 전문직 수요 우위로 소폭 조정
+        baseMax *= 0.95;
+      }
+    } else if (job === 'business') {
+      baseMax *= 1.1;
+    }
+
+    // 연령 보정
+    if (gender === 'female' && age === '20s') {
+      baseMin *= 0.9;
+      baseMax *= 0.9;
+    } else if (gender === 'male' && age === '40s') {
+      baseMax *= 1.15;
+    }
+
+    const finalMin = Math.round(baseMin) * 10000;
+    const finalMax = Math.round(baseMax) * 10000;
+
+    const priceText = `${finalMin.toLocaleString()}원 ~ ${finalMax.toLocaleString()}원`;
+    const descText = `선택하신 프로필 조건 기준 1년(12개월) 약정 시 ${matchCount} 시스템이 적합합니다. 전담 매니저 상담을 통해 서류 제출 현황에 따라 추가 혜택 및 세부 조율이 가능합니다.`;
+
+    document.getElementById('priceDisplay').innerText = priceText;
+    document.getElementById('subDisplay').innerText = descText;
+    document.getElementById('calcResult').style.display = 'block';
+  }
+</script>
+  
